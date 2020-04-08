@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(238, 224, 237);
+}
+a {
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+img {
+    top: 18%;
+    left: 43%;
+    position: absolute;
+}
+
+.rightli {
+  list-style: none;
+  display: inline;
+  padding: 10px 10px;
+}
+ul.horizontal li {
+  list-style: none;
+  display: inline;
+  padding: 10px 10px;
+}
+
+li:hover {
+
+}
+
+input {
+  height: 50px;
+  width: 550px;
+  top: 33%;
+  left: 36%;
+  position:fixed;
+  border-radius: 2rem;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
