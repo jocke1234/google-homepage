@@ -1,40 +1,65 @@
 body {
   background-color: rgb(238, 224, 237);
+  
 }
 a {
+  position: relative;
+  top: 10px;
+  right: 10px;
+  display: inline;
+  padding: 5px;
   text-decoration: none;
   font-family: arial,sans-serif;
   font-size: 13px;
+  color: black;
 }
 img {
-    top: 18%;
-    left: 43%;
-    position: absolute;
+  top: 19%;
+  left: 43%;
+  position: absolute;
+}
+
+
+li {
+  list-style: none;
+}
+
+.menubutton {
+  position: inline-flex;
+  height: 20px;
+  width: 20px;
+}
+.menubutton img {
+  position: inline-flex;
+  height: 20px;
+  width: 20px;
 }
 
 .rightli {
-  list-style: none;
   display: inline;
-  padding: 10px 10px;
+  padding: 5px;
+  padding-right: 10px;
 }
 ul.horizontal li {
-  list-style: none;
   display: inline;
-  padding: 10px 10px;
+  position: relative;
+  right: 20px;
+  top: 5px;
+  padding: 5px;
+  padding-left: 10px;
 }
 
 input {
   height: 50px;
   width: 575px;
-  top: 33%;
-  left: 36%;
+  top: 34%;
+  left: 35%;
   position:fixed;
   border-radius: 2rem;
 }
 
 h1 {
-  color: navy;
-  margin-left: 20px;
+
 }
 
 h2 {
