@@ -6,28 +6,49 @@ body {
   float: left;
 }
 
+.topleft li {
+  display: inline;
+}
+
 .topright {
   float: right;
+}
+
+.topright li {
+  display: inline;
 }
 
 .topright img {
 height: 20px;
 width: 20px;
-padding: 10px 10px;
-margin: 10px 10px;
+
 }
 
 .footerleft {
-  position: absolute;
-  bottom: 0px;
   float: left;
 }
 
-.footerright li {
-  position: fixed;
-  list-style-type: none;
-  bottom: 0px;
+.footerleft li {
+  display: inline;
+}
+
+.footerright {
   float: right;
+}
+
+.footerright li {
+  display: inline;
+}
+
+footer {
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+footer li {
+  list-style-type: none;
 }
  
 a {
