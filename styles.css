@@ -1,6 +1,35 @@
 body {
   
 }
+
+.topleft {
+  float: left;
+}
+
+.topright {
+  float: right;
+}
+
+.topright img {
+height: 20px;
+width: 20px;
+padding: 10px 10px;
+margin: 10px 10px;
+}
+
+.footerleft {
+  position: absolute;
+  bottom: 0px;
+  float: left;
+}
+
+.footerright li {
+  position: fixed;
+  list-style-type: none;
+  bottom: 0px;
+  float: right;
+}
+ 
 a {
   position: relative;
   top: 10px;
@@ -23,29 +52,6 @@ li {
   list-style: none;
 }
 
-.menubutton {
-  position: relative;
-  margin: 100px 100px 100px 100px;
-}
-
-.menubutton img {
-  height: 20px;
-  width: 20px;
-}
-
-.rightli {
-  float: right;
-  padding: 5px 0px 0px 20px;
-}
-
-ul.horizontal li {
-  display: inline;
-  position: relative;
-  right: 20px;
-  top: 5px;
-  padding: 5px 0px 0px 20px;
-}
-
 input {
   height: 50px;
   width: 575px;
@@ -55,31 +61,6 @@ input {
   border: 1px solid #dfe1e5;
   box-shadow: none;
   border-radius: 24px;
-}
-
-.navbar {
-  background-color: #fafaff;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border: 1px;
-}
-
-.navbar a {
-  font-size: 14px;
-  float: left;
-  padding: 0px 0px 25px 25px;
-  text-decoration: none;
-  color: #5f6368;
-}
-
-.navbar_right a{
-  font-size: 14px;
-  float: right;
-  padding: 0px 25px 25px 0px;
-  text-decoration: none;
-  color: #5f6368;
 }
 
 h1 {
