@@ -7,14 +7,27 @@
         <li><a class="active" href="#About">About</a></li>
         <li><a href="#Store">Store</a></li>
     </ul>
+    
     <ul class="topright">
         <li><a href="#Gmail">Gmail</a></li>
         <li><a href="#Images">Images</a></li>
-        <li><a href="#Menu"><img src="/home/jocke/the_odin_project/google-homepage/images/menu.png"></a></li>
-        <li><a href="#Sign In">Sign In</a></li>
+        <li id="menu"><a href="#Menu"><img id="menuimage" src="/home/jocke/the_odin_project/google-homepage/images/menu.png"></a></li>
+        <li class="signin"><a href="#Sign In">Sign In</a></li>
     </ul>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-    <input type="text">
+
+    <div class="hero">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <input class="input_box" type="text">
+    </div>
+    <div style="height:120px">
+    <ul class="buttons">
+    <li class="submitbuttons">
+        <input class="submit" type="submit" name="search" value="Google Search">
+        <input class="submit" type="submit" name="lucky" value="I'm Feeling Lucky">
+    </li>
+    </ul>
+    </div>
+
     <footer>
         <ul class="footerleft">
             <li><a href="#home">Advertising</a></li>
